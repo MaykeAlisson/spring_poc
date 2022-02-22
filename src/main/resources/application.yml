@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: study
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+queue-service:
+  name: myfile
+  exchange: study
+  route-key: study-key
+
+viacep-service:
+  url-base: https://viacep.com.br/ws
+
