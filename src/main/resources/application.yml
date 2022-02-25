@@ -14,4 +14,7 @@ queue-service:
 
 viacep-service:
   url-base: https://viacep.com.br/ws
+  url-cep: /{cep}/json
+  connect-timeout: 2000
+  read-timeout: 10000
 

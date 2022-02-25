@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Objects;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -21,5 +23,11 @@ public class EnderecoDTO {
     private String gia;
     private String ddd;
     private String siafi;
+
+
+    public Boolean inValid(){
+        return Objects.isNull(this.getCep()) || Objects.isNull(this.getLogradouro())
+                || Objects.isNull(this.getUf()) || Objects.isNull(this.getLocalidade());
+    }
 
 }
