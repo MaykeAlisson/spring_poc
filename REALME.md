@@ -1,13 +1,11 @@
-* Usar Lombok
-* Usar Feng
+* Usar Lombok - ok
+* Usar Feng - ok
 https://dev.to/daienelima/como-consumir-uma-api-na-sua-aplicacao-spring-boot-3p3a
- 
-Definir timeout / Decode Error
 * Usar Mock
-* Usar Log
+* Usar Log - ok
 * Usar Grafana
 * Usar Actuator
-* Usar RabbitMq
+* Usar RabbitMq - ok
 https://mmarcosab.medium.com/tutorial-rabbitmq-com-spring-boot-480e3a6682e6
 
 1. Criar api consulta cep WScorreio 
