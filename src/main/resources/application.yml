@@ -18,3 +18,7 @@ viacep-service:
   connect-timeout: 2000
   read-timeout: 10000
 
+service:
+  scheduler:
+    cron: "0 0/1 * * * *"
+    time-zone: America/Sao_Paulo
