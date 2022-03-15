@@ -1,6 +1,5 @@
 package br.com.mayke.studyspring.client;
 
-import br.com.mayke.studyspring.config.FeignClientConfiguration;
 import br.com.mayke.studyspring.dto.EnderecoDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;

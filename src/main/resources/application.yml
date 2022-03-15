@@ -7,6 +7,14 @@ spring:
     username: guest
     password: guest
 
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
 queue-service:
   name: myfile
   exchange: study
